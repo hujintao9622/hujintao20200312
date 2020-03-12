@@ -1,0 +1,4 @@
+IApkUpdate 定义几个回调方法和两个子类，用于通知栏显示升级提示，应用显示升级提示
+当ApkDownLoader 开始下载 下载失败 下载暂停 下载完成都会通知ApkDownLoaderic
+在转告通知栏、对话框显示
+UpdateManager 处理业务逻辑,比如关闭三次提示后，一周内不再提示等
